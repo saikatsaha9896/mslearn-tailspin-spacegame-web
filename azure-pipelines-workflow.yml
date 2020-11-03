@@ -1,10 +1,10 @@
-trigger:
-  branches:
-    include:
-    - '*'     # build all branches
-  paths:
-    exclude:
-    - docs/*  # exclude the docs foldergit checkout master
+trigger: none
+#  branches:
+#    include:
+#    - '*'     # build all branches
+#  paths:
+#    exclude:
+#    - docs/*  # exclude the docs foldergit checkout master
 
 pool:
   vmImage: 'ubuntu-18.04'
